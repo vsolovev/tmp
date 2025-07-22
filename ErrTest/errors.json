@@ -1,0 +1,22 @@
+{
+    "MyCompany": {
+        "MyService": {
+            "CartElement": {
+                "Request": {
+                    "Inaccessible": {
+                        "Description": "The requested card element is not accessible",
+                        "StatusCode": 403
+                    }
+                }
+            },
+            "CartContent": {
+                "Request": {
+                    "InternalError": {
+                        "Description": "Error requesting cart content",
+                        "StatusCode": 500
+                    }
+                }
+            }
+        }
+    }
+}
